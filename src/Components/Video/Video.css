@@ -1,0 +1,87 @@
+.video-card 
+{
+  display: flex;
+  flex-direction: column;
+  gap:16px;
+  background: transparent;
+  text-decoration: none;
+  color: inherit;
+}
+
+
+.video-card img 
+{
+  height: 141px;
+  border-radius: 7.1px;
+}
+
+.content 
+{
+  display: flex;
+  flex-direction: column;
+  gap:8px;
+}
+
+.content 
+{
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  gap:8px;
+}
+
+
+.profile-and-text
+{
+  display: flex;
+  align-items: center;
+  gap:16px;
+}
+
+.text 
+{
+  height: 48px;
+  max-width: 253px;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.text h2
+{
+  display: -webkit-box;
+  max-width: 253px;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  color:#fff;
+  font-size: 1rem;
+}
+
+.video-state 
+{
+  width: 100%;
+  padding-left: 56px;
+  display: flex;
+  flex-direction: column;
+  gap:4px;
+}
+
+.views-uploadtime 
+{
+  display: flex;
+  gap:8px;
+}
+
+.views-uploadtime p 
+{
+  color:var(--muted-text);
+  font-weight: 400;
+  font-size:14px;
+  line-height: 20px;
+}
+
+/* -------- */
+
+
+

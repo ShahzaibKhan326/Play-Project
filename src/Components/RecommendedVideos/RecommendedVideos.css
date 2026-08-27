@@ -1,0 +1,29 @@
+.recommended-videos {
+  width: 100%;
+
+  min-width: 0;
+
+  padding: 16px;
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 16px;
+
+  border-right: none;
+}
+
+.recommended-videos h2 {
+  margin: 0;
+
+  font-size: 18px;
+}
+
+.recommended-video-list {
+  display: flex;
+  flex-direction: column;
+
+  gap: 16px;
+
+  overflow-y: auto;
+}

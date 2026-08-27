@@ -1,0 +1,28 @@
+.link
+{
+  width: 100%;
+  padding:8px 12px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap:12px;
+  border:1px solid #fff;
+  cursor: pointer;
+}
+
+.link:hover 
+{
+  border:1px solid var(--gray-300);
+}
+
+.nav-icon
+{
+  /* background :red; */
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 2px;
+}
+

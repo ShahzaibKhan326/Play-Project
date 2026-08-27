@@ -1,0 +1,157 @@
+.video-info {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+  padding: 24px;
+
+  gap: 16px;
+
+  border: 1px solid var(--gray-200);
+  border-radius: 16px;
+}
+
+
+/* ---------------- Row ---------------- */
+
+.video-info-row {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+/* ---------------- Row 1 ---------------- */
+
+.first-row {
+  align-items: flex-start;
+}
+
+.video-info-column {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  min-width: 0;
+}
+
+.video-info-column h1 {
+  margin: 0;
+
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.video-meta {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+
+/* ---------------- Actions ---------------- */
+
+.video-actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.like-dislike-btn-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.video-action,
+.more-button,
+.follow-button {
+  border: none;
+  background: transparent;
+
+  color: inherit;
+
+  display: flex;
+  align-items: center;
+
+  cursor: pointer;
+}
+
+.video-action {
+  gap: 8px;
+}
+
+.more-button {
+  justify-content: center;
+}
+
+
+/* ---------------- Row 2 ---------------- */
+
+.second-row {
+  padding-bottom: 16px;
+
+  border-bottom: 1px solid var(--gray-200);
+}
+
+.channel-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.channel-details {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.channel-details h3,
+.channel-details p {
+  margin: 0;
+}
+
+.channel-details h3 {
+  font-size: 16px;
+}
+
+.channel-details p {
+  font-size: 14px;
+}
+
+
+/* ---------------- Row 3 ---------------- */
+
+.video-description {
+  width: 100%;
+}
+
+.video-description p {
+  margin: 0;
+
+  line-height: 1.5;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* ---------- */
+
+.like-dislike-btn-container 
+{
+  align-self: flex-start;
+  display: flex;
+  align-items: center;
+
+}
+
+.like-dislike-btn-container span 
+{
+  font-size: 25px;
+  cursor: pointer;
+}
+

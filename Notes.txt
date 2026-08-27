@@ -1,0 +1,31 @@
+/* 
+Layout 
+Contianer : 1440px;
+Header : Height : 72px;
+Sidebar : fixed {height:954px , width:280px }
+MainContent/Layout Fill  {width:1160,height:954}
+
+Videos Grid Rows and Column
+videCard : Filled {{Width:270px,height:249.09,layout:verticle}}
+
+------
+Mobile Layout 
+Header :  {width:375px , height:64px}
+videos : Filled {width:375px , height:64px}
+FooterMobile : {width:filled, height:64px}
+
+*/
+
+/* 
+
+one more thing in figma its shown videos in three
+different way 
+Video Row => Inside 4 videos 
+Video vertical(mobile) => 4 vertical videos
+A Seperate VideoCard (Normal)
+A Seperate VideoCard on Search (full width)
+A Seperate Video with White Theme
+
+So I Also Do Row thing or Like grid with spacing?
+
+*/

@@ -1,0 +1,53 @@
+:root 
+{
+  /* Colors */
+  --primary :#AE7AFF;
+  --primary-50 :#F0FDF9;
+  --primary-100 :#CCFBEF;
+  --primary-600 :#11999E;
+
+  /* Icon */
+  --icon-background :#E4D3FF;
+
+  --background-dark : #000;
+  /* --background-dark :red; */
+  --background-dark-text : #fff;
+  --text-color : #fff;
+  --text-muted : #5B5B5B;
+
+  /* Gray Shade */
+  --gray-200 : #EAECF0;
+  --gray-300 : #D0D5DD;
+  --gray-600 : #475467;
+  --gray-900 : #101828;
+
+  /* Font Weight */
+  --font-weight-400:400;
+  --font-weight-500:500;
+  --font-weight-600:600;
+
+ /* Typography */
+  --text-xs : 14px;
+  --text-sm : 16px;
+  --text-md : 18px;
+  --text-xl : 20px;
+
+  --heading-xs : 24px;
+  --heading-sm : 30px;
+  --heading-md : 36px;
+ 
+  --line-height-sm:20px;
+  --line-height-md:24px;
+  --line-height-xl:30px;
+  --line-height-large:38px;
+  --line-height-lg:28px;
+
+  /* Spacing */
+  --space-xs:6px;
+  --space-sm:8px;
+  --space-md:16px;
+  --space-lg:32px;
+
+  --buttonback:#38333F;
+  
+}

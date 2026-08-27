@@ -1,0 +1,25 @@
+
+.navigation-actions 
+{
+  display: flex;
+  gap:12px;
+  align-items: center;
+  /* background-color: red; */
+}
+
+.more-menu 
+{
+  position:relative;
+  color:#fff;
+  font-size: 20px;
+  cursor: pointer;
+  top:-4px;
+}
+
+
+/* nav img {
+  width:63px;
+  height: auto;
+} */
+
+/* -------- */

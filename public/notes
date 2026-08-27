@@ -1,0 +1,6 @@
+Search input state — capture what the user types.
+Search trigger — decide whether search happens on typing or pressing Enter/search icon.
+Filter video data — find videos related to the search term.
+Display results — show the matching VideoCard components.
+No results state — show something useful when nothing matches.
+URL/search state — later, connect it to React Router so searches can have URLs such as /search?q=react.

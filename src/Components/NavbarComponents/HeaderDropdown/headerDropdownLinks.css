@@ -1,0 +1,8 @@
+.headerDropdownLinks 
+{
+  color:var(--text-color);
+  display: flex;
+  align-items: center;
+  gap:var(--space-lg);
+  cursor: pointer;
+}
