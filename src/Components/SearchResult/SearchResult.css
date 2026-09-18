@@ -1,19 +1,14 @@
 .search-result {
+  width: 100%;
+  min-width: 0;
   padding: 12px;
-
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
 }
 
 .search-result .card {
-  height: 172px;
-
+  width: 100%;
+  min-width: 0;
   display: flex;
   gap: 16px;
-
-  min-width: 0;
-
   text-decoration: none;
   color: inherit;
 }
@@ -21,32 +16,62 @@
 .search-result .card .thumbnail {
   width: 313px;
   height: 172px;
-
   flex-shrink: 0;
-
   object-fit: cover;
 }
 
 .search-result .content {
-  background-color: transparent;
-
+  flex: 1;
+  min-width: 0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
   gap: 8px;
-
-  min-width: 0;
 }
+
+/* Title */
 
 .title-view {
   display: flex;
   flex-direction: column;
   gap: 4px;
+  min-width: 0;
 }
+
+.title-view h2 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: var(--font-weight-600);
+}
+
+/* Views & Time */
+
+.views-uploadtime {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.views-uploadtime p {
+  margin: 0;
+}
+
+/* Profile */
 
 .profile-supportive-text {
   display: flex;
   flex-direction: column;
   gap: 8px;
+  min-width: 0;
+}
+
+.profile-and-text {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.profile-and-text p,
+.profile-supportive-text > p {
+  margin: 0;
 }

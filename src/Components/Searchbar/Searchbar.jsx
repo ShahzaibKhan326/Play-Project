@@ -4,7 +4,11 @@ import { SearchOutlined } from "@ant-design/icons";
 
 import { useNavigate } from "react-router-dom";
 
-function Searchbar({ searchValue, setSearchValue }) {
+import useSearch from "../../context/useSearch";
+
+function Searchbar() {
+
+  const { searchValue, setSearchValue } = useSearch()
 
   const navigate = useNavigate();
 

@@ -8,6 +8,8 @@
   gap:12px;
   border:1px solid #fff;
   cursor: pointer;
+  background: var(--background);
+  color:#fff;
 }
 
 .link:hover 

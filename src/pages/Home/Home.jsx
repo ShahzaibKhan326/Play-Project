@@ -1,16 +1,15 @@
-import "./Home.css";
-
-import Sidebar from "../../Components/Sidebar/Sidebar";
+// import "./Home.css";
 import VideoSection from "../VideoSection/VideoSection";
 
-function Home({ searchValue }) {
+function Home() {
   return (
     <main className="home-layout">
-      <Sidebar />
-
-      <VideoSection searchValue={searchValue} />
+      <VideoSection />
     </main>
   );
 }
 
 export default Home;
+
+
+

@@ -12,9 +12,9 @@ function RecommendedVideo({ video }) {
       className="recommended-video"
     >
 
-      <img
+       <img
         className="recommended-thumbnail"
-        src={`${video.thumbnail}${video.id}.jpg`}
+        src={`https://img.youtube.com/vi/${video.youtubeId}/hqdefault.jpg`}
         alt={video.title}
       />
 

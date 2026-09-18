@@ -1,0 +1,82 @@
+.tweets-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding:12px 30px;
+}
+
+.tweet {
+  width: 100%;
+  height: 72px;
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.tweet > .avatar {
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 50%;
+}
+
+.tweet-content {
+  width: 100%;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.tweet-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.tweet-text h3,
+.tweet-text p {
+  margin: 0;
+}
+
+.tweet-text h3 {
+  font-size: 14px;
+  font-weight: var(--font-weight-600);
+}
+
+.tweet-text p {
+  font-size: 14px;
+  line-height: var(--line-height-md);
+}
+
+.tweet-actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.tweet-actions button {
+  padding: 0;
+  border: none;
+  background: transparent;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+}
+
+.tweet-actions button .anticon {
+  font-size: 18x;
+}
+
+.tweet-actions button span {
+  font-size: 16px;
+  margin-bottom:10px;
+}
+
+.tweet:not(:last-child) {
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--gray-200);
+}

@@ -4,14 +4,10 @@ import {
   MoreOutlined,
   LikeOutlined,
   DislikeOutlined,
-  SaveOutlined,
   FolderAddFilled,
 } from "@ant-design/icons";
 
 import Button from "../Button/Button";
-
-import { Plus, SaveCheckIcon } from "lucide-react";
-
 import Avatar from "../Avatar/Avatar";
 import oliviaAvatar from "../../assets/Avatars/oliviaAvatar.jpg";
 

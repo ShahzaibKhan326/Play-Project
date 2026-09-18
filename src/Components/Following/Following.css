@@ -1,0 +1,80 @@
+.following-section {
+  width: 100%;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.following-search {
+  width: 100%;
+}
+
+.following-search .ant-input-affix-wrapper {
+  width: 100%;
+  height: 44px;
+  border-radius: 8px;
+}
+
+.following-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.following-profile {
+  width: 100%;
+  min-height: 72px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.following-profile .avatar {
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 50%;
+}
+
+.following-profile-info {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.following-profile-info h3,
+.following-profile-info p {
+  margin: 0;
+}
+
+.following-profile-info h3 {
+  font-size: 16px;
+  font-weight: var(--font-weight-600);
+}
+
+.following-profile-info p {
+  font-size: 14px;
+  color: var(--text-muted);
+}
+
+.subscribe-btn {
+  padding: 8px 20px;
+  border: 1px solid var(--gray-300);
+  /* border-radius: 6px; */
+  background: white;
+  color: black;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  cursor: pointer;
+}
+
+.subscribe-btn.subscribed {
+  background: var(--primary);
+  color: white;
+  border-color: var(--primary);
+}

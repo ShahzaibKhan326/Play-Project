@@ -1,12 +1,19 @@
 
 import "../VideoSection/VideoSection.css"
 
+import useSearch from "../../context/useSearch";
+
 
 import Video from "../../Components/Video/Video";
 import videos from "../../Components/Video/VideoData";
 import EmptyState from "../../Components/EmptyState/EmptyState";
 
-function VideoSection({ searchValue }) {
+function VideoSection()
+ {
+
+const {searchValue} = useSearch()
+
+
   const filteredVideos = videos.filter((video) =>
     video.title.toLowerCase().includes(searchValue.toLowerCase())
   );

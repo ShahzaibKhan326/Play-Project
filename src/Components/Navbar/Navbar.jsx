@@ -3,11 +3,12 @@ import Searchbar from "../Searchbar/Searchbar"
 import NavActions from "../NavActions/NavActions"
 import Brandlogo from "../BrandLogo/Brandlogo"
 
-export default function Navbar({searchValue,setSearchValue}) {
+export default function Navbar() {
+
   return (
     <nav>
      <Brandlogo />
-     <Searchbar  searchValue={searchValue} setSearchValue={setSearchValue} />
+     <Searchbar  />
      <NavActions />
     </nav>
   )

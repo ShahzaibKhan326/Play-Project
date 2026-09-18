@@ -4,16 +4,16 @@ import { useParams } from "react-router-dom";
 
 import videos from "../../Components/Video/VideoData";
 import EmptyState from "../../Components/EmptyState/EmptyState";
-import Sidebar from "../../Components/Sidebar/Sidebar";
 import VideoPlayerView from "../../Components/VideoPlayerView/VideoPlayerView";
 import VideoInfo from "../../Components/VideoInfo/VideoInfo";
 import Comments from "../../Components/Comments/Comments";
 import RecommendedVideos from "../../Components/RecommendedVideos/RecommendedVideos";
 
 function VideoPlayer() {
-  const { videoId } = useParams();
+  
+  const { id } = useParams();
 
-  const video = videos.find((video) => video.id === Number(videoId));
+  const video = videos.find((video) => video.id === Number(id));
 
   if (!video) {
     return (
@@ -25,7 +25,6 @@ function VideoPlayer() {
 
   return (
     <main className="video-player-layout">
-      <Sidebar collapsed />
 
       <section className="player-content">
         <VideoPlayerView video={video} />
@@ -36,7 +35,7 @@ function VideoPlayer() {
 
       </section>
 
-      <RecommendedVideos currentVideoId={videoId} />
+      <RecommendedVideos currentid={id} />
     </main>
   );
 }

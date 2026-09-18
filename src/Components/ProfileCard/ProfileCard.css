@@ -1,0 +1,43 @@
+.profile-card 
+{
+  width: 100%;
+  padding-inline:32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  left: 10px;
+  top:-25px;
+}
+
+
+.profile-detail-col
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap:4px;
+}
+
+.profile-detail 
+{
+  display: flex;
+  justify-content: space-between;
+  gap:24px;
+}
+.profile-detail-col h2 
+{
+  font-weight: var(--font-weight-600);
+  font-size: 30px;
+}
+
+.profile-detail-col p 
+{
+  font-weight: var(--font-weight-400);
+  line-height: var(--line-height-md);
+}
+
+.profile-image 
+{
+  border-radius: 50%;
+}

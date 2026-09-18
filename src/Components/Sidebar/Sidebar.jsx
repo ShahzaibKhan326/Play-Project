@@ -18,6 +18,7 @@ export default function Sidebar({ collapsed = false }) {
               label={item.label}
               icon={<item.icon className="nav-icon" />}
               collapsed={collapsed}
+              path={item.path}
             />
           ))}
 
@@ -30,7 +31,8 @@ export default function Sidebar({ collapsed = false }) {
               key={item.id}
               label={item.label}
               icon={<item.icon className="nav-icon" />}
-              collapsed={collapsed}
+              collapsed={collapsed} 
+              path={item.path}
             />
           ))}
 

@@ -4,11 +4,15 @@ import './index.css'
 
 import { BrowserRouter } from 'react-router-dom'
 import App from './App.jsx'
+import SearchProvider from './context/SearchProvider.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
+  
   <BrowserRouter>
+  <SearchProvider>
     <App />
+  </SearchProvider>
   </BrowserRouter>
   </StrictMode>,
 )

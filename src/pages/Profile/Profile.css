@@ -1,0 +1,50 @@
+
+.profile-section {
+  color: var(--text-color);
+}
+
+.cover-img {
+  background-color: aquamarine;
+  height: 240px;
+}
+
+.profile-details {
+  position: relative;
+}
+
+.profile-tabs {
+  margin-top: 180px;
+  padding-block: 10px;
+  display: flex;
+  gap: 12px;
+  font-size: var(--text-xs);
+}
+
+.profile-links,
+.profile-tabs .active {
+  flex: 1;
+  text-align: center;
+  padding: 8px 16px;
+  text-decoration: none;
+  color: var(--gray-500);
+ transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.profile-tabs .active {
+  background-color: white;
+  color: var(--primary);
+  border-bottom: 2px solid var(--primary);
+  font-weight: var(--gray-600);
+
+}
+
+.profile-links:active,
+.profile-tabs .active:active {
+  background-color: var(--primary);
+  color: white;
+}
+
+.profile-tab-empty-state {
+  width: 100%;
+}
+

@@ -1,50 +1,38 @@
 .comments {
   width: 100%;
-
   display: flex;
   flex-direction: column;
-
   gap: 24px;
 }
-
 
 /* Header */
 
 .comments-header {
   display: flex;
   align-items: center;
-
   gap: 8px;
 }
 
 .comments-header h2 {
   margin: 0;
-
   font-size: 20px;
 }
-
 
 /* Input */
 
 .comment-input {
   display: flex;
   align-items: center;
-
   gap: 12px;
 }
 
 .comment-input input {
   flex: 1;
-
   min-width: 0;
-
   padding: 12px 0;
-
   border: none;
   border-bottom: 1px solid var(--gray-200);
-
   outline: none;
-
   background: transparent;
   color: var(--text-color);
 }
@@ -53,28 +41,32 @@
   color: var(--text-muted);
 }
 
+/* Comment List */
+
+.comment-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
 
 /* Comment */
 
 .comment {
   display: flex;
-
   gap: 12px;
 }
 
 .comment-content {
   display: flex;
   flex-direction: column;
-
   gap: 8px;
-
   min-width: 0;
 }
 
 .comment-author {
   display: flex;
   align-items: center;
-
   gap: 8px;
 }
 

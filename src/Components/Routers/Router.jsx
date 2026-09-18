@@ -1,17 +1,32 @@
-// import { BrowserRouter , Router , Routes } from "react-router-dom";
+import { Routes , Route } from "react-router-dom";
+import Home from "../../pages/Home/Home";
+import Searched from "../../pages/Searched/Searched";
 
-// import Demo from "../../pages/Demo";
 
-// function Routers()
-// {
-//   return(
-//     <BrowserRouter>
-//     <Routes>
-//       <Route path="/" element={<Home />}/>
-//       {/* <Route path="/demo" element={<Demo/>} /> */}
-//     </Routes>
-//     </BrowserRouter>
-//   );
-// }
+function Router() {
+  return (
+ 
+  
+  //  <Routes>
 
-// export default Routers
+  // <Route path="/home" element={<Home/>}/>
+  //   <Route path="search" element={<Searched/>} />
+  //   <Route path="profile" element={<Profile/>} />
+  // </Route> 
+
+  //   </Routes>
+  
+  <Routes>
+
+ <Route path="/home" element={<Home/>}>
+  <Route  path="search" element={<Searched/>}/>
+  <Route  path="profile" element={<Pr/>}/>
+ </Route>
+
+  </Routes>
+
+ 
+  )
+
+
+export default Router

@@ -1,38 +1,31 @@
-
 aside {
   width: 280px;
-  padding:32px 16px;
+  height: 100%;
+  padding: 32px 16px;
   display: flex;
   flex-direction: column;
-  gap:24px;
+  gap: 24px;
   justify-content: space-between;
   border-right: 1px solid var(--gray-200);
-  transition: width 0.2s ease ;
-  /* background :red; */
+  transition: width 0.2s ease;
 }
 
-.links 
-{
+.links {
   height: 100%;
   display: flex;
   flex-direction: column;
-  gap:24px;
+  gap: 24px;
   justify-content: space-between;
-  /* background:yellow; */
 }
 
-.navlinks  , .footerLinks
-{
+.navlinks,
+.footerLinks {
   width: 100%;
-  display:flex;
+  display: flex;
   flex-direction: column;
-  gap:4px;
-  /* background-color: red; */
+  gap: 4px;
 }
 
-aside.collapsed
-{
- width: 81px;
+aside.collapsed {
+  width: 81px;
 }
-
-
